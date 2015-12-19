@@ -144,4 +144,41 @@ ul.right li a {
     font-size: 18px;
 }
 
+@media screen and (max-width: 700px) {
+	.searchBox input {
+		width: 60%
+	} 
+}
+
+@media screen and (max-width: 437px) { 
+	div.bottom {
+		width: 80%;
+    	left: 40px
+    } 
+
+    ul.right {
+    	padding-right: 88px;
+	}
+	.profile_img {
+		display: none;
+	}	
+
+}
+
+@media screen and (max-width: 594px) { 
+	.right li:nth-child(1)  {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 594px) { 
+	.right li:nth-child(2)  {
+		display: none;
+	}
+	 div.bottom {
+	 	width: 101%;
+    	left: 0px;
+	}
+}
+
 
